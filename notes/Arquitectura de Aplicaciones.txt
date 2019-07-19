@@ -71,3 +71,32 @@ Clean Architecture expone las entidades.
 
 https://github.com/ShadyBoukhary/Axion-Technologies-HnH/wiki/The-Clean-Architecture-for-Flutter
 
+
+Haciendo BLoC Singleton en Flutter
+"En la clase anterior estructuramos nuestro código usando BLoC Pattern, ahora en esta clase usaremos otro patrón de diseño llamado Singleton.
+
+Un archivo de vista debe tener su archivo de lógica de negocio, se podrán comunicar, llamarse, sí una vista necesita hacer login, entre otros. Podemos tener varias vistas comunicándose con una sola lógica de negocio.
+
+Usaremos éste ejemplo para ilustrar lo que queremos hacer, recuerda que queremos exponer la lógica de negocio lo más alto posible para que sus hijos puedan acceder a el:
+
+class MyApp extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+        return BlocProvider (
+            bloc: AppBloc(),
+            child: MaterialApp(
+                title: 'Yo Sleep',
+                home: MainPage(),
+                initialRoute: ‘main’,
+                routes: {
+                    'main': (context) => MainPage(),
+                }
+            ),
+        );
+    }
+}```
+
+Aplicando Providers al Proyecto
+Para instalar generic_bloc_provider debemos dirigirnos a nuestro archivo pubspec.yaml que se encuentra en la raíz de nuestro proyecto y en la parte de dependencies agregamos la línea generic_bloc_provider: ^1.0.9, recuerda dejar una correcta indentación en el documento para que no genere errores. Luego en nuestro Android Studio le damos click a “Packages get” para integrar la librería a nuestro proyecto.
+
+https://pub.dev/packages/generic_bloc_provider
