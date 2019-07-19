@@ -1,0 +1,8 @@
+Integrando Firebase Authentication, Cloud Firestore y Firebase Storage al proyecto
+Te hemos escuchado y finalmente traemos a este curso la integración con Firebase y Flutter, pero ojo con la compatibilidad entre librerías. Para que nada se nos ““rompa”” nuestra querida profesora ha desarrollado unos ““hacks”” para que funcione tanto en iOS como en Android, sigue paso a paso los códigos y cuéntanos en los comentarios.
+
+Vamos a añadir un proyecto a Firebase, le colocaremos un nombre y finalmente creamos el proyecto; registraremos la aplicación para Android y pondremos los campos que nos piden, necesitaremos registrar una clave SHA-01 y es muy recomendado que lo hagamos para mayor seguridad.
+
+Luego descargaremos un archivo llamado google-services.json el cual pondremos en la carpeta app de nuestro proyecto. Debemos cambiar la directiva minSdkVersion en el archivo build.gradle que está en la carpeta app al valor 21 para tener una mayor compatibilidad.
+
+Ahora añadiremos el SDK de Firebase en nuestro proyecto para empezar a trabajar con él, iremos al archivo build.gradle que se encuentra en la raíz de nuestro proyecto, iremos a la parte de dependencias y añadiremos la línea de código que nos dice; ahora iremos al archivo build.gradle en la carpeta app para añadir otra implementación en la parte de dependencias, y nada más, cualquier otra configuración que diga Firebase para el SDK ya no es necesario para nuestro proyecto.

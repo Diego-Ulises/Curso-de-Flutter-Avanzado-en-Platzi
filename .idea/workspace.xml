@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/Place/bloc/bloc_place.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/platzi-curso-avanzado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platzi-curso-avanzado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/2. Firebase y Flutter.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Place/ui/screens/home_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Place/ui/screens/home_trips.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/platzi_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/platzi_trips.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/platzi_trips_cupertino.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/platzi_trips_cupertino.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Arquitectura de Aplicaciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes/Arquitectura de Aplicaciones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Arquitectura de Aplicaciones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes/1. Arquitectura de Aplicaciones.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +46,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -66,12 +75,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notes/Arquitectura de Aplicaciones.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes/2. Firebase y Flutter.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state>
+              <caret selection-end-column="82" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/app/google-services.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-345" />
           </provider>
         </entry>
       </file>
@@ -119,13 +135,15 @@
         <option value="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/notes/Arquitectura de Aplicaciones.txt" />
+        <option value="$PROJECT_DIR$/notes/2. Firebase y Flutter.txt" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="697" />
+    <option name="x" value="277" />
+    <option name="width" value="1096" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -147,49 +165,18 @@
             <path>
               <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
@@ -223,15 +210,15 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\lib\Place" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\android\app" />
       <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\lib\Place\model" />
       <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\lib\widgets" />
       <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\lib\User\ui\widgets" />
       <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\lib\User\ui\screens" />
-      <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\lib\Place\ui\widgets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\lib\Place" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +304,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40031397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -339,7 +326,7 @@
       <window_info anchor="bottom" id="Logcat" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32991454" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32991454" />
-      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32820514" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,37 +339,39 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23363775" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Captures" order="6" weight="0.25" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="9" weight="0.3298292" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32820514" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3298292" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32991454" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32820514" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Flutter Outline" order="3" />
-      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Flutter Inspector" order="8" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
@@ -567,10 +556,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/bloc/bloc_user.dart">
+    <entry file="file://$PROJECT_DIR$/notes/1. Arquitectura de Aplicaciones.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="303">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/2. Firebase y Flutter.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -584,10 +585,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Arquitectura de Aplicaciones.txt">
+    <entry file="file://$PROJECT_DIR$/lib/User/bloc/bloc_user.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="161">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
