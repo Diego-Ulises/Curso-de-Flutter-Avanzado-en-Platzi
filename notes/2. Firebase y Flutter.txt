@@ -6,3 +6,25 @@ Vamos a añadir un proyecto a Firebase, le colocaremos un nombre y finalmente cr
 Luego descargaremos un archivo llamado google-services.json el cual pondremos en la carpeta app de nuestro proyecto. Debemos cambiar la directiva minSdkVersion en el archivo build.gradle que está en la carpeta app al valor 21 para tener una mayor compatibilidad.
 
 Ahora añadiremos el SDK de Firebase en nuestro proyecto para empezar a trabajar con él, iremos al archivo build.gradle que se encuentra en la raíz de nuestro proyecto, iremos a la parte de dependencias y añadiremos la línea de código que nos dice; ahora iremos al archivo build.gradle en la carpeta app para añadir otra implementación en la parte de dependencias, y nada más, cualquier otra configuración que diga Firebase para el SDK ya no es necesario para nuestro proyecto.
+
+Integrando Firebase a Flutter para Android
+En esta clase veremos como configurar Firebase para que funcione completamente con Android y no genere ningún error.
+
+Repasemos los puntos que haremos con Android:
+
+No implementar Firebase como librería en el proyecto Android. (Ya lo hicimos)
+Para FirebaseAuth:
+gradle.properties añadir las líneas:
+android.useAndroidX=true
+android.enableJetifier=true
+compileSdkVersion 28
+targetSdkVersion 28
+Para CloudFirestore:
+android {
+        defaultConfig {
+                multiDexEnabled true
+        }
+}
+Ahora iremos a nuestro archivo pubspect.yaml y vamos a colocar las siguientes dependencias: Firebase_auth, google_sign_in, firebase_storage y cloud_firestore; las cuales puedes encontrar en el repositorio de paquetes de Dart
+
+https://pub.dev/packages
