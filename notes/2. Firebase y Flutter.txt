@@ -28,3 +28,17 @@ android {
 Ahora iremos a nuestro archivo pubspect.yaml y vamos a colocar las siguientes dependencias: Firebase_auth, google_sign_in, firebase_storage y cloud_firestore; las cuales puedes encontrar en el repositorio de paquetes de Dart
 
 https://pub.dev/packages
+
+Integrando Firebase a Flutter para iOS
+Ahora en esta clase configuraremos Flutter y Firebase para iOS. Cuando desarrollamos con Flutter debemos siempre tener un ojo en Android y otro en iOS, en lo que instalación de paquetes respecta, una que funciona bien en Android puede romperse en iOS o viceversa; en esta clase te mostraremos cómo implementar bien iOS.
+
+Debemos registrar la aplicación en Firebase así como lo hicimos para registrarlo con Android.
+
+Repasemos los puntos que irán en este vídeo:
+
+No implementar Firebase con cocoapods.
+Pegar el archivo GoogleService-Info.plist a nivel de Runner
+Para Google Sign In:
+Copiar el fragmento de código para el key CFBundleURLTypes que se encuentra aquí.
+Para CloudFirestore:
+Actualizar Firebase con el comando pod: $ pod update Firebase
