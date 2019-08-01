@@ -1,4 +1,4 @@
-#Fri Jul 19 18:46:40 CDT 2019
+#Thu Aug 01 12:51:35 CDT 2019
 base.2=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\11
 base.1=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\9
 base.0=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\7
