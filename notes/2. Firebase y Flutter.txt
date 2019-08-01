@@ -42,3 +42,10 @@ Para Google Sign In:
 Copiar el fragmento de código para el key CFBundleURLTypes que se encuentra aquí.
 Para CloudFirestore:
 Actualizar Firebase con el comando pod: $ pod update Firebase
+
+
+Autenticación de Firebase con Google
+En esta clase veremos como implementar la autenticación con Firebase. Debemos entrar a firebase entrar en nuestro proyecto, ir al apartado de “Authentication” y activar la autenticación con Google.
+
+Streams en Flutter
+Vamos a empezar a transmitir datos en nuestra aplicación, que en este caso será con Firebase; para esto Flutter usa Streams: son datos que vivirán en un flujo, una corriente de datos para llegar un servidor o regresar de un servidor. Podrían ser textos, imágenes, archivos e incluso un Stream puede ser otro Stream.
