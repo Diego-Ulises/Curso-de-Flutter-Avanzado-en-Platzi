@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="Manejando una sesión con Firebase Authentication y Flutter">
+    <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="Implementando Google SignOut en View">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/User/repository/auth_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/repository/auth_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/User/repository/firebase_auth_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/repository/firebase_auth_api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/2. Firebase y Flutter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes/2. Firebase y Flutter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/platzi_trips_cupertino.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/platzi_trips_cupertino.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="-92">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -59,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="256">
+              <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -71,14 +79,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="161">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/platzi_trips_cupertino.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -137,12 +166,10 @@
         <option value="$PROJECT_DIR$/lib/profile_places_list.dart" />
         <option value="$PROJECT_DIR$/lib/Place/ui/widgets/card_image.dart" />
         <option value="$PROJECT_DIR$/lib/Place/ui/widgets/description_place.dart" />
-        <option value="$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/screens/profile_trips.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/profile_places_list.dart" />
         <option value="$PROJECT_DIR$/lib/Place/ui/screens/home_trips.dart" />
-        <option value="$PROJECT_DIR$/lib/platzi_trips_cupertino.dart" />
         <option value="$PROJECT_DIR$/lib/platzi_trips.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart" />
         <option value="$PROJECT_DIR$/lib/Place/bloc/bloc_place.dart" />
@@ -161,7 +188,10 @@
         <option value="$PROJECT_DIR$/lib/User/repository/firebase_auth_api.dart" />
         <option value="$PROJECT_DIR$/lib/User/repository/auth_repository.dart" />
         <option value="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" />
+        <option value="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/platzi_trips_cupertino.dart" />
+        <option value="$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart" />
       </list>
     </option>
   </component>
@@ -211,6 +241,20 @@
               <item name="User" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564691086282</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementando Google SignOut en BLoC">
+      <created>1564693138169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564693138169</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -396,16 +447,16 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32307693" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4097222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
-      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32820514" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.328125" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3402778" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3402778" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32991454" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32307693" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -420,7 +471,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4568289" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45525903" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -431,16 +482,16 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32291666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
-      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32820514" />
+      <window_info active="true" anchor="bottom" id="Dart Analysis" order="7" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.33506945" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3402778" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32991454" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32307693" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -462,7 +513,9 @@
     <MESSAGE value="Autenticación de Firebase con Google" />
     <MESSAGE value="Implementando Firebase Authentication en BLoC Pattern" />
     <MESSAGE value="Manejando una sesión con Firebase Authentication y Flutter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manejando una sesión con Firebase Authentication y Flutter" />
+    <MESSAGE value="Implementando Google SignOut en BLoC" />
+    <MESSAGE value="Implementando Google SignOut en View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando Google SignOut en View" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.packages">
@@ -483,13 +536,6 @@
         <state relative-caret-position="1994">
           <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -595,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/platzi_trips_cupertino.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/1. Arquitectura de Aplicaciones.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -697,16 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/2. Firebase y Flutter.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -754,20 +783,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart">
+    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="460">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-92">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/platzi_trips_cupertino.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
