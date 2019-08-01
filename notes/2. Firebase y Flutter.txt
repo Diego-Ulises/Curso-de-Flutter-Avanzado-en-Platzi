@@ -49,3 +49,10 @@ En esta clase veremos como implementar la autenticación con Firebase. Debemos e
 
 Streams en Flutter
 Vamos a empezar a transmitir datos en nuestra aplicación, que en este caso será con Firebase; para esto Flutter usa Streams: son datos que vivirán en un flujo, una corriente de datos para llegar un servidor o regresar de un servidor. Podrían ser textos, imágenes, archivos e incluso un Stream puede ser otro Stream.
+
+Manejando una sesión con Firebase Authentication y Flutter
+Para solucionar el error 12500 en SignIn de Google hice lo siguiente:
+en la consola de firebase ir a configuración -> usuarios y permisos -> configuración avanzada
+Luego una vez en la consola cloud de google ir a Credenciales
+y hacer lo siguiente:
+completar los enlaces con el dominio: http://<id_project>.firebaseapp.com
