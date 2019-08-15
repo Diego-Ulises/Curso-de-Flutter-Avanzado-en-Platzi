@@ -4,3 +4,7 @@ Tener persistencia en nuestros datos es una realidad que poco a poco en nuestras
 Nos vamos a dirigir a nuestra console de Firebase, iremos a Database, crearemos una Database y haremos los siguientes pasos: locked enable, cambiaremos las reglas a allow read, write: if reques.auth != null.
 
 No vamos a utilizar tablas ni relaciones, utilizaremos un modelos de bases de datos no relacional, la llamamos colecciones que dentro pueden tener documentos.
+
+Analizando un modelo de datos no relacional
+Crearemos nuestro modelo de datos para nuestra aplicación Platzi Trips, recuerda que debemos analizar nuestra aplicación para saber cuales son las colecciones y los campos que tendrá los documentos para un mayor entendimiento de nuestra database.
+
