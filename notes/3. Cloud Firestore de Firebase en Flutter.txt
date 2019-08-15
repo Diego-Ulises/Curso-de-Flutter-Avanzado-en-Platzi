@@ -1,0 +1,6 @@
+¿Qué es Cloud Firestore de Firebase?
+Tener persistencia en nuestros datos es una realidad que poco a poco en nuestras aplicaciones deben ir promoviendo y/o adquiriendo. Ahora vamos a darle persistencia a nuestros datos a Firebase usando Cloud Firestore.
+
+Nos vamos a dirigir a nuestra console de Firebase, iremos a Database, crearemos una Database y haremos los siguientes pasos: locked enable, cambiaremos las reglas a allow read, write: if reques.auth != null.
+
+No vamos a utilizar tablas ni relaciones, utilizaremos un modelos de bases de datos no relacional, la llamamos colecciones que dentro pueden tener documentos.
