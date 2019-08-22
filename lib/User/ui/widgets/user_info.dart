@@ -5,6 +5,8 @@ class UserInfo extends StatelessWidget {
 
   User user;
 
+
+
   UserInfo(@required this.user);
 
   @override
