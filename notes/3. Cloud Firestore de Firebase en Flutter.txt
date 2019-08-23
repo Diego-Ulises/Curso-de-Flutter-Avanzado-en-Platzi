@@ -22,3 +22,70 @@ Navigator.push( context,
         )
 );
 
+Navegación entre pantallas en Flutter
+
+Navegar de una pantalla a otra
+Comenzaremos viendo el ejemplo más simple.
+
+Recuerda que pensar en manejar la navegación en flutter significa que estamos en un stack, por lo tanto si quiero pasar de una pantalla a otra deberé añadir un elemento al stack, esto lo hago con la opción push de la siguiente manera.
+
+Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => SecondRoute()),
+);
+Ahora imagina que queremos regresar, esto significará sacar la pantalla de la pila en este caso no es necesario llamar directamente al archivo sino únicamente usar la función pop de la clase Navigator.
+
+Navigator.pop(context);
+Navegar de una pantalla a otra con parámetros
+Podemos enviar de una pantalla a otra desde un dato sencillo hasta un objeto entero, simplemente usando el método constructor de la clase a dónde queremos llevar el dato. Podemos hacerlo de la siguiente forma:
+
+Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (context) => DetailScreen(place: places[index]),
+  ),
+);
+Navegar de una pantalla a otra volver y obtener un resultado
+Esta acción no es tan utilizada pero te dejo el dato sobre cómo funciona y la explicación de un caso de uso para que tengas más contexto de en qué casos se puede usar:
+
+Imagina una pantalla que tiene dos botones ambos activan dos menús, el requerimiento es que la al clickear cualquiera de los botones abra el menú y luego regrese a la pantalla anterior con el resultado de lo seleccionado en el menú.
+
+Este tipo de actividad se conoce como obtener el resultado de la pantalla y lo podemos lograr de la siguiente forma:
+
+1. Ir a la pantalla de opciones
+
+onPressed: () {
+    _navigateAndDisplaySelection(context);
+},
+
+
+2. En la pantalla de opciones tener asignado el accionable de esta forma
+
+Navigator.pop(context, "Opción Seleccionada");
+Esto hará que automáticamente al ir de regreso a la pantalla inicial llegué directamente a este método, para obtener el resultado:
+
+_navigateAndDisplaySelection(BuildContext context) async {
+    final result = await Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => SelectionScreen()),
+    );
+}
+Navegación con rutas
+Cuando estamos navegando recurrentemente a la misma pantalla desde otras, puede provocar la duplicación del código. En esos casos es más recomendable utilizar la navegación por rutas.
+
+Para lograr esto lo primero que debemos hacer es desde el Widget MaterialApp() declarar las rutas de la siguiente forma:
+
+MaterialApp(
+    initialRoute: '/',
+    routes: {
+        '/': (context) => FirstScreen(),
+        '/second': (context) => SecondScreen(),
+        '/third': (context) => ThirdScreen(),
+    },
+);
+Una vez declaradas ya podemos navegar de esta forma:
+
+Navigator.pushNamed(context, '/second');
+Y regresar a la pantalla anterior usando la misma sentencia pop
+
+Navigator.pop(context);
