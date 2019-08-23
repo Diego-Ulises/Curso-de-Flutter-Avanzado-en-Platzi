@@ -8,3 +8,17 @@ No vamos a utilizar tablas ni relaciones, utilizaremos un modelos de bases de da
 Analizando un modelo de datos no relacional
 Crearemos nuestro modelo de datos para nuestra aplicación Platzi Trips, recuerda que debemos analizar nuestra aplicación para saber cuales son las colecciones y los campos que tendrá los documentos para un mayor entendimiento de nuestra database.
 
+Botón de Back en un Appbar en Flutter
+¿Cómo maneja Flutter la navegación?
+
+Las pantallas se apilarán en una pila, literalmente, tendremos un método en especial para regresar a la página anterior o ir a una página superior, para el caso del botón que estamos construyendo en esta clase queremos volver a una página anterior, usaremos Navigator.of(context).pop();.
+
+Si queremos ir de Pantalla1 a Pantalla2 utilizaremos el método push, tendrá como parámetro la pantalla a la que quiero ir para hacerle push a la pila e insertarla en la pantalla, por ejemplo:
+
+Navigator.push( context,
+        new MaterialPageRoute(
+                builder: (BuildContext context) =>
+                new Screen2(userName)
+        )
+);
+
