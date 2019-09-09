@@ -69,7 +69,9 @@ class UserInfo extends StatelessWidget {
       child: Row(
         children: <Widget>[
           userPhoto,
-          userInfo
+          Flexible(
+            child: userInfo,
+          )
         ],
       ),
     );
