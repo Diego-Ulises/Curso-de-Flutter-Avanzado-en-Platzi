@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="Navegación entre pantallas en Flutter">
-      <change afterPath="$PROJECT_DIR$/lib/widgets/title_header.dart" afterDir="false" />
+    <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="Widget Text Appbar personalizado en Flutter">
+      <change afterPath="$PROJECT_DIR$/lib/widgets/text_input.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/user_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/user_info.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/floating_action_button_green.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/floating_action_button_green.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +14,23 @@
   <component name="DartProblemsView" auto-scroll-to-source="true" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+            <state relative-caret-position="354">
+              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/widgets/text_input.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -143,12 +139,12 @@
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/user_info.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/title_header.dart" />
         <option value="$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart" />
+        <option value="$PROJECT_DIR$/lib/widgets/text_input.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -171,56 +167,6 @@
               <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Place" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso-Avanzado-de-Flutter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Curso-Avanzado-de-Flutter" type="b2602c69:ProjectViewProjectNode" />
@@ -454,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566542047996</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Widget Text Appbar personalizado en Flutter">
+      <created>1568001118053</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1568001118054</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -467,7 +420,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37048665" />
@@ -481,7 +434,7 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,7 +443,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Logcat" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.35069445" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3559028" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32991454" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32291666" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -558,12 +511,10 @@
     <MESSAGE value="Manejo de Desbordamiendo de Texto de Widget Text" />
     <MESSAGE value="Botón de Back en un Appbar en Flutter" />
     <MESSAGE value="Navegación entre pantallas en Flutter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navegación entre pantallas en Flutter" />
+    <MESSAGE value="Widget Text Appbar personalizado en Flutter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Widget Text Appbar personalizado en Flutter" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.packages">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/Flutter/Debug.xcconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -941,11 +892,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        <state relative-caret-position="354">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/text_input.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
