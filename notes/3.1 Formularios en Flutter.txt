@@ -1,0 +1,150 @@
+Formularios en Flutter
+Curso Avanzado de Flutter
+
+27 de Mayo de 2019
+
+Acabamos de ver una forma de trabajar con formularios haciendo que todos los elementos vivan independientemente, este comportamiento funciona cuando tenemos pocos elementos que componen el formulario, como es en nuestro caso.
+
+Pero cuando tienes formularios de registro u otros cuya cantidad de campos ya oscila entre los 5 o más es momento de usar un Widget especializado llamado Form.
+
+La composición de este Widget es la siguiente:
+
+Form(
+key:
+child:
+);
+)
+El primer parámetro key nos indicará el identificador del form, para esto podemos usar un objeto de tipo GlobalKey que además de fungir como un identificador único del formulario nos ayudará también a validarlo.
+
+Podemos declararlo así:
+
+GlobalKey  _formKey = GlobalKey();
+Form(
+key: _formKey
+child:
+);
+)
+Como vimos en clases anteriores los campos de texto se crearán a partir del Widget TextFormField, este tendrá un estilo natural de Material Design lo que significa que está preparado para mostrarnos el input en ciertas tonalidades al ser validado. Estos campos estarán presentes en la propiedad child del Form de esta forma:
+
+GlobalKey  _formKey = GlobalKey();
+Form(
+key: _formKey,
+child: TextFormField()
+);
+)
+Ya que estamos hablando de validaciones veamos cómo podemos generarlas.
+Para que el TextFormField pueda tener una validación personalizada podemos asignarla a partir de su propiedad validator como se muestra a continuación:
+
+TextFormField(
+validator: (value) {
+if (value.isEmpty) {
+return 'Por favor ingresa tu nombre';
+}
+},
+);
+Ahora pasemos al botón de submit o enviar datos. Este botón no debe recaer la responsabilidad de validar cada dato sino simplemente verificar que cada dato cumplió con su validación especificada. Un botón de submit podría verse así:
+
+RaisedButton(
+onPressed: _validateInputs,
+child: Text('Validate'),
+)
+
+void _validateInputs() {
+  if (_formKey.currentState.validate()) {
+
+  }
+}
+Como observas estamos usando el identificador del form que contiene todos los campos para verificar si todas las validaciones pasaron. Si todo se cumple entonces ya podemos ejecutar la siguiente fase que tengas pensada en el formulario.
+
+Dada la naturaleza el input cuando abramos la ventana los campos estarán vacíos por lo tanto aparecerán todos marcados según la validación que estemos haciendo. Hay una forma de hacer que los campos a pesar de estar vacíos no aparezcan resaltados y esto es usando la propiedad autovalidate del Form como se muestra a continuación:
+
+bool _autoValidate = false;
+Form(
+key: _formKey,
+autovalidate: _autoValidate,
+child: TextFormField(
+validator: (value) {
+if (value.isEmpty) {
+return 'Por favor ingresa tu nombre';
+}
+},
+)
+);
+)
+De esta forma ponemos por defecto en falso que los elementos contenidos en el formulario no se acentúen la primera vez pero, debemo cambiarlo a true una vez el botón submit verifique las validaciones para que, en caso de que no pasen el formulario esté habilitado para resaltar los elementos que no cumplan la validación.
+
+RaisedButton(
+onPressed: _validateInputs,
+child: Text('Validate'),
+)
+
+void _validateInputs() {
+  if (_formKey.currentState.validate()) {
+
+  } else {
+    setState(() {
+      _autoValidate = true;
+    });
+  }
+}
+Ahora, si queremos recuperar los datos ingresados en cualquier campo basta con llamar al método onSave(String val){}.
+
+//Campo de Texto
+TextFormField(
+validator: validateName,
+onSaved: (String val) {
+_name = val;
+}
+)
+
+//Email
+TextFormField(
+keyboardType: TextInputType.emailAddress,
+validator: validateEmail,
+onSaved: (String val) {
+_email = val;
+},
+),
+
+//Phone
+TextFormField(
+keyboardType: TextInputType.phone,
+validator: validateMobile,
+onSaved: (String val) {
+_mobile = val;
+},
+)
+
+//Switch estilo Cupertino iOS
+SwitchListTile(
+title: Text('Accept Terms'),
+value: false,
+onChanged: (bool val) {
+_terms = val;
+}
+)
+
+//Checkbox Material Design Android
+CheckboxListTile(
+title: Text('Accept Terms'),
+value: false,
+onChanged: (val) {
+_terms = val
+}
+)
+Y por último para generar consistencia debemos poner _formKey.currentState.save(); en el botón submit de la siguiente forma:
+
+RaisedButton(
+onPressed: _validateInputs,
+child: Text('Validate'),
+)
+
+void _validateInputs() {
+  if (_formKey.currentState.validate()) {
+    _formKey.currentState.save();
+  } else {
+    setState(() {
+      _autoValidate = true;
+    });
+  }
+}
