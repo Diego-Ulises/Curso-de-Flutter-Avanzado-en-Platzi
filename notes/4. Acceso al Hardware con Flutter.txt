@@ -1,0 +1,5 @@
+Acceso a la cámara en Flutter
+Ahora que estamos en esta clase debemos entender cómo es que Android y iOS manejan el acceso al Hardware, cada uno tiene un sistema de permisos que debemos darle de alta. Desde el código debemos manejar este sistema de permisos en dado caso que el hardware sea obligatorio, en este caso el único permiso que configuraremos es el uso a la cámara.
+
+Debemos agregar el paquete image_picker a nuestro proyecto, puedes consultar en la sección de enlaces para encontrar la versión más actualizada.
+
