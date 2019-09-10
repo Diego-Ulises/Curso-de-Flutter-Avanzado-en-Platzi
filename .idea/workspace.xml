@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="Descargar imágenes de Firebase Storage y mostrarlas en Flutter">
+    <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="Procesando datos con BLoC Pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/User/repository/cloud_firestore_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/repository/cloud_firestore_api.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/User/repository/cloud_firestore_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/repository/cloud_firestore_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/profile_places_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/profile_places_list.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +41,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/User/repository/cloud_firestore_api.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="115">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/lib/User/bloc/bloc_user.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -65,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_places_list.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            <state relative-caret-position="282">
+              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -127,7 +160,6 @@
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/gradient_back.dart" />
         <option value="$PROJECT_DIR$/lib/Place/ui/screens/header_appbar.dart" />
-        <option value="$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/screens/sign_in_screen.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" />
         <option value="$PROJECT_DIR$/notes/3. Cloud Firestore de Firebase en Flutter.txt" />
@@ -151,10 +183,11 @@
         <option value="$PROJECT_DIR$/lib/Place/repository/firebase_storage_repository.dart" />
         <option value="$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart" />
         <option value="$PROJECT_DIR$/lib/Place/model/place.dart" />
-        <option value="$PROJECT_DIR$/lib/User/repository/cloud_firestore_api.dart" />
         <option value="$PROJECT_DIR$/lib/User/repository/cloud_firestore_repository.dart" />
         <option value="$PROJECT_DIR$/lib/User/bloc/bloc_user.dart" />
+        <option value="$PROJECT_DIR$/lib/User/repository/cloud_firestore_api.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/profile_places_list.dart" />
+        <option value="$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart" />
       </list>
     </option>
   </component>
@@ -534,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568093499409</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Procesando datos con BLoC Pattern">
+      <created>1568094469379</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1568094469379</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -548,7 +588,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.42072213" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -561,7 +600,7 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36581197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36458334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,7 +660,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Monitoreando y validando la conexión al Sign con Google" />
     <MESSAGE value="¿Qué es Cloud Firestore de Firebase?" />
     <MESSAGE value="Analizando un modelo de datos no relacional" />
     <MESSAGE value="Creando un Modelo de datos en Cloud Firestore" />
@@ -646,7 +684,8 @@
     <MESSAGE value="Manejo de imágenes en Cloud Firestore" />
     <MESSAGE value="Cloud Firestore insertando referencias y arrays en la base de datos" />
     <MESSAGE value="Descargar imágenes de Firebase Storage y mostrarlas en Flutter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Descargar imágenes de Firebase Storage y mostrarlas en Flutter" />
+    <MESSAGE value="Procesando datos con BLoC Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Procesando datos con BLoC Pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/platzi_trips.dart">
@@ -756,16 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/src/flutter/packages/flutter/lib/src/widgets/container.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -777,16 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1014,16 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/repository/cloud_firestore_api.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/User/repository/cloud_firestore_repository.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1037,7 +1046,7 @@
     <entry file="file://$PROJECT_DIR$/lib/User/bloc/bloc_user.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -1046,8 +1055,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_places_list.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="282">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/User/repository/cloud_firestore_api.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_place_info.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
