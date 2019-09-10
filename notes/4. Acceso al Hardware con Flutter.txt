@@ -3,3 +3,54 @@ Ahora que estamos en esta clase debemos entender cómo es que Android y iOS mane
 
 Debemos agregar el paquete image_picker a nuestro proyecto, puedes consultar en la sección de enlaces para encontrar la versión más actualizada.
 
+Librerías de acceso a Hardware en Flutter
+
+Bluetooth
+Es una librería de Flutter que funciona de manera Cross-Platform para Android y iOS. Nos permite conectarnos a dispositivos, obtener información sobre ellos, mostrar notificaciones y acceso a los servicios.
+
+Esta librería la encuentras en el administrador de paquetes de dart:
+https://pub.dev/packages/flutter_blue
+
+Geolocalización
+Este plugin creado por la compañía Baseflow nos permite usar el hardware del dispositivo para obtener el último y/o actual punto de localización, una ruta de puntos de localización, transformar estos datos en coordenadas latotud y longitud, calcular distancias, así como monitorear si está activado en nuestro teléfono.
+
+Por defecto en Android se utilizan los Google Play Services pero si no está disponible utiliza la clase LocationManager.
+
+Los permisos que se utilizan en` Android son:
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE`_LOCATION" /`>
+Y en iOS:
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app needs access to location `when open.</string>
+Si quieres saber más puedes encontrar la documentación aquí:
+https://pub.dev/packages/geolocator
+
+Acelerómetro
+El acelerómetro del dispositivo es un sensor que sirve para medir la aceleración de movimiento.
+El comportamiento del acelerómetro normalmente estará en conjunto del giroscópio nos permitirá detectar la orientación del dispositivo y rotar la interfaz en caso de ser necesario.
+
+Sensors es el plugin más famoso en Flutter quenos permite tener acceso a e`stos dos aditamentos de Hardware.
+
+import 'package:sensors/sensors.dart';
+
+accelerometerEvents.listen((AccelerometerEvent event) {
+ // Do something with the event.
+});
+
+gyroscopeEvents.listen((GyroscopeEvent event) `{
+ // Do something with the event.
+});
+Puedes ver toda la documentación aquí: https://pub.dev/packages/sensors
+
+Beacon
+Un Beacon es uno de los aditamentos de hardware más solicitados en el desarollo de aplicaciones. Funciona vía Bluetooth emite una señal que lo identifica de forma única. Ésta señal puede ser recibida e interpretada por otros dispositivos como un smartphone.
+
+Sus usos son tan variados como la imaginación lo diga. Puede emitir, fotografías, videos, texto, etc. y desde el dispositivo móvil ser visualizados
+
+En el siguiente video puedes ver alguno de sus usos.
+
+En Flutter tenemos soporte para Beacons con el plugin Flutter Beacon que soporta especialmente a los iBeacons que viste en el video.
+
+Mira la documentación aquí: https://pub.dev/packages/flutter_beacon

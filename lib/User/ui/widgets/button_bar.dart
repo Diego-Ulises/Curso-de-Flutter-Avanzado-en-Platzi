@@ -25,7 +25,7 @@ class ButtonsBar extends StatelessWidget {
             //Añadir un nuevo lugar
             CircleButton(false, Icons.add, 40.0, Color.fromRGBO(255, 255, 255, 1), 
                     () {
-                      ImagePicker.pickImage(source: ImageSource.camera)
+                      ImagePicker.pickImage(source: ImageSource.gallery)
                           .then((File image) {
                             Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => AddPlaceScreen(image: image)));
                           }).catchError((onError) => print(onError));
