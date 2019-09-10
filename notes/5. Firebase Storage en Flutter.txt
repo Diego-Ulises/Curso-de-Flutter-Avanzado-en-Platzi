@@ -1,0 +1,4 @@
+Qué es y cómo funciona Firebase Storage en Flutter
+El Firebase Storage es un aditamento que Firebase nos proporciona para poder almacenar archivos, ya sean fotografías, vídeos, PDF y más; incluso podemos guardarlos en carpetas específicas. Nos va a ayudar a manejar estos documentos multimedias y poder persistirlos cuando nuestra aplicación está desinstalada.
+
+Vamos a dirigirnos a la console de firebase, luego al apartado de Storage, le damos click a empezar y esto es lo que haremos: organizaremos los datos por carpeta y las carpetas serán los identificadores de los usuarios.
