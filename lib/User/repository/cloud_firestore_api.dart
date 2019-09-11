@@ -54,7 +54,12 @@ class CloudFirestoreAPI {
     placesListSnapshot.forEach((p){
 
       profilePlaces.add(ProfilePlace(
-        Place(name: p.data['name'], description: p.data['description'], urlImage: p.data['urlImage'])
+        Place(
+            name: p.data['name'],
+            description: p.data['description'],
+            urlImage: p.data['urlImage'],
+            likes: p.data['likes']
+        )
       ));
 
     });
