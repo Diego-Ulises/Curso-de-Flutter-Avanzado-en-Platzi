@@ -5,7 +5,9 @@ INJECTED from C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutt
 INJECTED from C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
 INJECTED from C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\android\app\src\main\AndroidManifest.xml:1:1-39:12
 MERGED from [:firebase_auth] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-22:12
+MERGED from [:path_provider] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
 MERGED from [:cloud_firestore] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
@@ -186,8 +188,12 @@ INJECTED from C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutt
 INJECTED from C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\android\app\src\main\AndroidManifest.xml
 MERGED from [:firebase_auth] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\DiegoUlises\AndroidStudioProjects\Curso-Avanzado-de-Flutter\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44

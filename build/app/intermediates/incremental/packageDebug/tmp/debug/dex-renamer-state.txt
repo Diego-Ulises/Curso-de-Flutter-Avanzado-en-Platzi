@@ -1,4 +1,4 @@
-#Wed Sep 11 16:13:53 CDT 2019
+#Wed Sep 11 17:30:07 CDT 2019
 base.2=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\11
 base.1=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\9
 base.0=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\7
@@ -16,17 +16,29 @@ path.3=classes.dex
 renamed.5=classes6.dex
 path.2=classes.dex
 renamed.4=classes5.dex
+renamed.19=classes20.dex
 renamed.3=classes4.dex
 path.1=classes.dex
+renamed.18=classes19.dex
 renamed.2=classes3.dex
 path.0=classes.dex
+renamed.17=classes18.dex
 renamed.1=classes2.dex
+renamed.16=classes17.dex
 renamed.0=classes.dex
 renamed.15=classes16.dex
 renamed.14=classes15.dex
+path.19=classes.dex
+base.19=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\17
 renamed.13=classes14.dex
+path.18=classes.dex
+base.18=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\18
 renamed.12=classes13.dex
+path.17=classes.dex
+base.17=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\16
 renamed.11=classes12.dex
+path.16=classes.dex
+base.16=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\19
 renamed.10=classes11.dex
 path.15=classes2.dex
 base.15=C\:\\Users\\DiegoUlises\\AndroidStudioProjects\\Curso-Avanzado-de-Flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\2
