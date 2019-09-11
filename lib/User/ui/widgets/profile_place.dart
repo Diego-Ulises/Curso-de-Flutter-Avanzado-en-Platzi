@@ -24,7 +24,7 @@ class ProfilePlace extends StatelessWidget {
               image: NetworkImage(place.urlImage)
           ),
           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-          color: Colors.red,
+          color: Colors.blueGrey,
           boxShadow: <BoxShadow>[
             BoxShadow(
                 color: Colors.black38,
