@@ -125,7 +125,6 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                                     description: _controllerDescriptionPlace.text,
                                     urlImage: urlImage,
                                     likes: 0,
-
                                   )).whenComplete(() {
                                     print("TERMINO");
                                     Navigator.pop(context);
