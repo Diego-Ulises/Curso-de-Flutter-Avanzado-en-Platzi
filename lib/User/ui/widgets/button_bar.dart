@@ -27,6 +27,7 @@ class ButtonsBar extends StatelessWidget {
                     () {
                       ImagePicker.pickImage(source: ImageSource.gallery)
                           .then((File image) {
+                            print('***************************************************************************************************');
                             Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => AddPlaceScreen(image: image)));
                           }).catchError((onError) => print(onError));
                     }),

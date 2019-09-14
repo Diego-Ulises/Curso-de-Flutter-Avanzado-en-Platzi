@@ -15,9 +15,9 @@ import 'package:platzi_trips_app/widgets/title_header.dart';
 
 class AddPlaceScreen extends StatefulWidget {
 
-  File image;
+  final File image;
 
-  AddPlaceScreen({Key key, this.image});
+  AddPlaceScreen({Key key, @required this.image});
 
   @override
   State<StatefulWidget> createState() {
@@ -75,6 +75,7 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                       width: 350.0,
                       height: 250.0,
                       left: 0,
+                      internet: false,
                   ),
                 ), //FOTO
                 Container( //TextField Title
